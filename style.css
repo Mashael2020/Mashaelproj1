@@ -1,0 +1,46 @@
+.game{
+    display: table;
+    widows: 400px; 
+    height: 400px;
+    margin: 100px auto ;
+justify-content: center;
+
+}
+header{
+ font-family: 'Trebuchet MS';
+  color: azure; 
+  font-size:10px;  
+   
+}
+body{
+    text-align: center;
+    background-image: url("my.jpg");
+}
+.game1{
+  width:120px;
+  height:120px;
+  background:plum;
+  margin:5px;
+  font-size:50px;
+  color: black;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+}
+ 
+  
+ 
+  
+
+
+
+ button{
+    margin:10px; 
+    text-align: center; 
+    width: 20%; 
+    margin: 30px;
+    padding:10px;
+    font-size:20px;
+     
+  }
+
