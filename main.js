@@ -71,9 +71,7 @@ let counter = 0;
         console.log("win player " + $("#0").text()&& $("#2").text()); 
         swal("Player " + $("#2").text()+  " "+"Win!");
         $('.game1').off("click"); 
-    }
-    
-    if (counter===9){
+    }else if (counter===9){
         console.log( "tie" )
         swal("Tie", "","");
         $('.game1').off("click"); 
