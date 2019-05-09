@@ -1,8 +1,9 @@
+
 .game{
     display: table;
     widows: 400px; 
     height: 400px;
-    margin: 100px auto ;
+    margin: 0px auto 20px auto;
 justify-content: center;
 
 }
@@ -14,12 +15,15 @@ header{
 }
 body{
     text-align: center;
+   margin:0px; 
     background-image: url("my.jpg");
+    color: azure;      
+    
 }
 .game1{
   width:120px;
   height:120px;
-  background:plum;
+  background:palevioletred;
   margin:5px;
   font-size:50px;
   color: black;
@@ -29,22 +33,33 @@ body{
 }
  h1{
      font-size: 50px;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
      font-weight: 2000px;
+     font-family: 'Barrio';
  }
   
  
-  
-
-
 
  button{
     margin:10px; 
     text-align: center; 
     width: 20%; 
-    margin: 30px;
     padding:10px;
     font-size:20px;
+    position:top;
+    margin-bottom: 10%;
+    margin-top: 1px;
      
   }
 
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    color:palevioletred;
+    text-align: center;
+    font-family: 'Sofia';font-size: 22px;
+  }
